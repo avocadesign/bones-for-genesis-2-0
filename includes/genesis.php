@@ -18,7 +18,7 @@ add_theme_support( 'genesis-html5' );
 // add_theme_support( 'genesis-responsive-viewport' );
 
 /**
- * Add support for custom backgrouns
+ * Add support for custom backgrounds
  *
  * @since 2.0.2
  */
@@ -30,6 +30,15 @@ add_theme_support( 'genesis-html5' );
  * @since 2.0.1
  */
 // add_theme_support( 'genesis-footer-widgets', 3 );
+
+/**
+ * Declare WooCommerce support, using Genesis Connect for WooCommerce
+ *
+ * See: http://wordpress.org/plugins/genesis-connect-woocommerce/
+ *
+ * @since 2.0.6
+ */
+// add_theme_support( 'genesis-connect-woocommerce' );
 
 /**
  * Unregister default Genesis layouts
